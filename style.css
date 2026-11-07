@@ -43,27 +43,6 @@ nav {
     color: blueviolet;
 }
 
-@media (max-width: 600px) {
-    header {
-        padding: 20px 30px;
-    }
-
-    nav {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 15px;
-    }
-    .nav-linki {
-        justify-content: space-between;
-        gap: 30px;
-    }
-
-    .nav-linki a {
-        font-size: 14px;
-    }
-
-}
 .about {
     display: flex;
     align-items: center;
@@ -193,4 +172,38 @@ background-color: rgb(41, 40, 40);
 
 .t-card p {
     color: blueviolet;
+}
+
+@media (max-width: 600px) {
+    header {
+        padding: 20px 30px;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+    .nav-linki {
+        justify-content: space-between;
+        gap: 30px;
+    }
+
+    .nav-linki a {
+        font-size: 14px;
+    }
+
+    .skills-container {
+        flex-direction: column;
+    }
+
+    .skill-card {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .about{
+        flex-direction: column;
+    }
 }
