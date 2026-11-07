@@ -11,6 +11,7 @@ main{
     margin: 0 auto;
     padding: 30px;
 }
+
 header {
     padding: 20px 30px; 
 }
@@ -82,11 +83,11 @@ nav {
 }
 
 .skill-card {
-flex: 1;
-border: 1px solid blueviolet;
-border-radius: 18px;
-padding: 20px;
-background-color: rgb(41, 40, 40);
+    flex: 1;
+    border: 1px solid blueviolet;
+    border-radius: 18px;
+    padding: 20px;
+    background-color: rgb(41, 40, 40);
 }
 
 .skill-card h3 {
@@ -176,7 +177,7 @@ background-color: rgb(41, 40, 40);
 
 .con{
     flex: 1;
-    
+
 }
 
 .con-linki{

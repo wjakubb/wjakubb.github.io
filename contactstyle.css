@@ -43,14 +43,25 @@ nav {
     color: blueviolet;
 }
 
-.con{
-    flex: 1;
-    
+.con-linki{
+    display:flex;
+    gap: 20px;
+    flex-direction:column;
 }
 
-.con-linki{
+.con-linki p{
+    color: whitesmoke;
     text-decoration: none;
+    font-size: 20px;
 }
+
+.con-linki a{
+    color: blueviolet;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
 @media (max-width: 600px) {
     header {
         padding: 20px 30px;
